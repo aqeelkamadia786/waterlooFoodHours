@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94FADC931DA3324A002CAABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADC921DA3324A002CAABF /* AppDelegate.swift */; };
+		94FADC951DA3324A002CAABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADC941DA3324A002CAABF /* ViewController.swift */; };
+		94FADC981DA3324A002CAABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FADC961DA3324A002CAABF /* Main.storyboard */; };
+		94FADC9A1DA3324A002CAABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FADC991DA3324A002CAABF /* Assets.xcassets */; };
+		94FADC9D1DA3324A002CAABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FADC9B1DA3324A002CAABF /* LaunchScreen.storyboard */; };
+		94FADCA81DA3324A002CAABF /* WaterlooFoodHoursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADCA71DA3324A002CAABF /* WaterlooFoodHoursTests.swift */; };
+		94FADCB31DA3324A002CAABF /* WaterlooFoodHoursUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADCB21DA3324A002CAABF /* WaterlooFoodHoursUITests.swift */; };
+		94FADCC11DA332A8002CAABF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADCC01DA332A8002CAABF /* NetworkManager.swift */; };
+		94FADCC31DA339D9002CAABF /* FoodServiceLocationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADCC21DA339D9002CAABF /* FoodServiceLocationsModel.swift */; };
+		94FADCC51DA33E45002CAABF /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADCC41DA33E45002CAABF /* LocationTableViewCell.swift */; };
+		94FADCC71DA4CE8A002CAABF /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FADCC61DA4CE8A002CAABF /* LocationTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FADCA41DA3324A002CAABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FADC871DA3324A002CAABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FADC8E1DA3324A002CAABF;
+			remoteInfo = WaterlooFoodHours;
+		};
+		94FADCAF1DA3324A002CAABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FADC871DA3324A002CAABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FADC8E1DA3324A002CAABF;
+			remoteInfo = WaterlooFoodHours;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94FADC8F1DA3324A002CAABF /* WaterlooFoodHours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterlooFoodHours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FADC921DA3324A002CAABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94FADC941DA3324A002CAABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94FADC971DA3324A002CAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94FADC991DA3324A002CAABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94FADC9C1DA3324A002CAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94FADC9E1DA3324A002CAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FADCA31DA3324A002CAABF /* WaterlooFoodHoursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterlooFoodHoursTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FADCA71DA3324A002CAABF /* WaterlooFoodHoursTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterlooFoodHoursTests.swift; sourceTree = "<group>"; };
+		94FADCA91DA3324A002CAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FADCAE1DA3324A002CAABF /* WaterlooFoodHoursUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterlooFoodHoursUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FADCB21DA3324A002CAABF /* WaterlooFoodHoursUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterlooFoodHoursUITests.swift; sourceTree = "<group>"; };
+		94FADCB41DA3324A002CAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FADCC01DA332A8002CAABF /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		94FADCC21DA339D9002CAABF /* FoodServiceLocationsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodServiceLocationsModel.swift; sourceTree = "<group>"; };
+		94FADCC41DA33E45002CAABF /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		94FADCC61DA4CE8A002CAABF /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FADC8C1DA3324A002CAABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADCA01DA3324A002CAABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADCAB1DA3324A002CAABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94FADC861DA3324A002CAABF = {
+			isa = PBXGroup;
+			children = (
+				94FADC911DA3324A002CAABF /* WaterlooFoodHours */,
+				94FADCA61DA3324A002CAABF /* WaterlooFoodHoursTests */,
+				94FADCB11DA3324A002CAABF /* WaterlooFoodHoursUITests */,
+				94FADC901DA3324A002CAABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94FADC901DA3324A002CAABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FADC8F1DA3324A002CAABF /* WaterlooFoodHours.app */,
+				94FADCA31DA3324A002CAABF /* WaterlooFoodHoursTests.xctest */,
+				94FADCAE1DA3324A002CAABF /* WaterlooFoodHoursUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FADC911DA3324A002CAABF /* WaterlooFoodHours */ = {
+			isa = PBXGroup;
+			children = (
+				94FADC921DA3324A002CAABF /* AppDelegate.swift */,
+				94FADC941DA3324A002CAABF /* ViewController.swift */,
+				94FADC961DA3324A002CAABF /* Main.storyboard */,
+				94FADC991DA3324A002CAABF /* Assets.xcassets */,
+				94FADC9B1DA3324A002CAABF /* LaunchScreen.storyboard */,
+				94FADC9E1DA3324A002CAABF /* Info.plist */,
+				94FADCC01DA332A8002CAABF /* NetworkManager.swift */,
+				94FADCC21DA339D9002CAABF /* FoodServiceLocationsModel.swift */,
+				94FADCC41DA33E45002CAABF /* LocationTableViewCell.swift */,
+				94FADCC61DA4CE8A002CAABF /* LocationTableViewController.swift */,
+			);
+			path = WaterlooFoodHours;
+			sourceTree = "<group>";
+		};
+		94FADCA61DA3324A002CAABF /* WaterlooFoodHoursTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FADCA71DA3324A002CAABF /* WaterlooFoodHoursTests.swift */,
+				94FADCA91DA3324A002CAABF /* Info.plist */,
+			);
+			path = WaterlooFoodHoursTests;
+			sourceTree = "<group>";
+		};
+		94FADCB11DA3324A002CAABF /* WaterlooFoodHoursUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94FADCB21DA3324A002CAABF /* WaterlooFoodHoursUITests.swift */,
+				94FADCB41DA3324A002CAABF /* Info.plist */,
+			);
+			path = WaterlooFoodHoursUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94FADC8E1DA3324A002CAABF /* WaterlooFoodHours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FADCB71DA3324A002CAABF /* Build configuration list for PBXNativeTarget "WaterlooFoodHours" */;
+			buildPhases = (
+				94FADC8B1DA3324A002CAABF /* Sources */,
+				94FADC8C1DA3324A002CAABF /* Frameworks */,
+				94FADC8D1DA3324A002CAABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterlooFoodHours;
+			productName = WaterlooFoodHours;
+			productReference = 94FADC8F1DA3324A002CAABF /* WaterlooFoodHours.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94FADCA21DA3324A002CAABF /* WaterlooFoodHoursTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FADCBA1DA3324A002CAABF /* Build configuration list for PBXNativeTarget "WaterlooFoodHoursTests" */;
+			buildPhases = (
+				94FADC9F1DA3324A002CAABF /* Sources */,
+				94FADCA01DA3324A002CAABF /* Frameworks */,
+				94FADCA11DA3324A002CAABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FADCA51DA3324A002CAABF /* PBXTargetDependency */,
+			);
+			name = WaterlooFoodHoursTests;
+			productName = WaterlooFoodHoursTests;
+			productReference = 94FADCA31DA3324A002CAABF /* WaterlooFoodHoursTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94FADCAD1DA3324A002CAABF /* WaterlooFoodHoursUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FADCBD1DA3324A002CAABF /* Build configuration list for PBXNativeTarget "WaterlooFoodHoursUITests" */;
+			buildPhases = (
+				94FADCAA1DA3324A002CAABF /* Sources */,
+				94FADCAB1DA3324A002CAABF /* Frameworks */,
+				94FADCAC1DA3324A002CAABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FADCB01DA3324A002CAABF /* PBXTargetDependency */,
+			);
+			name = WaterlooFoodHoursUITests;
+			productName = WaterlooFoodHoursUITests;
+			productReference = 94FADCAE1DA3324A002CAABF /* WaterlooFoodHoursUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FADC871DA3324A002CAABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aqeel Kamadia";
+				TargetAttributes = {
+					94FADC8E1DA3324A002CAABF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					94FADCA21DA3324A002CAABF = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 94FADC8E1DA3324A002CAABF;
+					};
+					94FADCAD1DA3324A002CAABF = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 94FADC8E1DA3324A002CAABF;
+					};
+				};
+			};
+			buildConfigurationList = 94FADC8A1DA3324A002CAABF /* Build configuration list for PBXProject "WaterlooFoodHours" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94FADC861DA3324A002CAABF;
+			productRefGroup = 94FADC901DA3324A002CAABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FADC8E1DA3324A002CAABF /* WaterlooFoodHours */,
+				94FADCA21DA3324A002CAABF /* WaterlooFoodHoursTests */,
+				94FADCAD1DA3324A002CAABF /* WaterlooFoodHoursUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FADC8D1DA3324A002CAABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FADC9D1DA3324A002CAABF /* LaunchScreen.storyboard in Resources */,
+				94FADC9A1DA3324A002CAABF /* Assets.xcassets in Resources */,
+				94FADC981DA3324A002CAABF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADCA11DA3324A002CAABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADCAC1DA3324A002CAABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FADC8B1DA3324A002CAABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FADCC31DA339D9002CAABF /* FoodServiceLocationsModel.swift in Sources */,
+				94FADCC51DA33E45002CAABF /* LocationTableViewCell.swift in Sources */,
+				94FADCC71DA4CE8A002CAABF /* LocationTableViewController.swift in Sources */,
+				94FADCC11DA332A8002CAABF /* NetworkManager.swift in Sources */,
+				94FADC951DA3324A002CAABF /* ViewController.swift in Sources */,
+				94FADC931DA3324A002CAABF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADC9F1DA3324A002CAABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FADCA81DA3324A002CAABF /* WaterlooFoodHoursTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADCAA1DA3324A002CAABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FADCB31DA3324A002CAABF /* WaterlooFoodHoursUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FADCA51DA3324A002CAABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FADC8E1DA3324A002CAABF /* WaterlooFoodHours */;
+			targetProxy = 94FADCA41DA3324A002CAABF /* PBXContainerItemProxy */;
+		};
+		94FADCB01DA3324A002CAABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FADC8E1DA3324A002CAABF /* WaterlooFoodHours */;
+			targetProxy = 94FADCAF1DA3324A002CAABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FADC961DA3324A002CAABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FADC971DA3324A002CAABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94FADC9B1DA3324A002CAABF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FADC9C1DA3324A002CAABF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FADCB51DA3324A002CAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94FADCB61DA3324A002CAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94FADCB81DA3324A002CAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterlooFoodHours/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aqeel.WaterlooFoodHours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94FADCB91DA3324A002CAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterlooFoodHours/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aqeel.WaterlooFoodHours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94FADCBB1DA3324A002CAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterlooFoodHoursTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aqeel.WaterlooFoodHoursTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterlooFoodHours.app/WaterlooFoodHours";
+			};
+			name = Debug;
+		};
+		94FADCBC1DA3324A002CAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterlooFoodHoursTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aqeel.WaterlooFoodHoursTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterlooFoodHours.app/WaterlooFoodHours";
+			};
+			name = Release;
+		};
+		94FADCBE1DA3324A002CAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterlooFoodHoursUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aqeel.WaterlooFoodHoursUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterlooFoodHours;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		94FADCBF1DA3324A002CAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterlooFoodHoursUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aqeel.WaterlooFoodHoursUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterlooFoodHours;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FADC8A1DA3324A002CAABF /* Build configuration list for PBXProject "WaterlooFoodHours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FADCB51DA3324A002CAABF /* Debug */,
+				94FADCB61DA3324A002CAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FADCB71DA3324A002CAABF /* Build configuration list for PBXNativeTarget "WaterlooFoodHours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FADCB81DA3324A002CAABF /* Debug */,
+				94FADCB91DA3324A002CAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FADCBA1DA3324A002CAABF /* Build configuration list for PBXNativeTarget "WaterlooFoodHoursTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FADCBB1DA3324A002CAABF /* Debug */,
+				94FADCBC1DA3324A002CAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FADCBD1DA3324A002CAABF /* Build configuration list for PBXNativeTarget "WaterlooFoodHoursUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FADCBE1DA3324A002CAABF /* Debug */,
+				94FADCBF1DA3324A002CAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94FADC871DA3324A002CAABF /* Project object */;
+}
